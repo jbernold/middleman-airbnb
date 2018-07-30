@@ -23,4 +23,13 @@
 }
 .footer .fa-heart {
   color: $wagon-red;
+  -webkit-animation: fa-spin 12s infinite linear;
+  animation: fa-spin 12s infinite linear;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.footer .fa-heart:hover {
+  font-weight: bolder;
 }
