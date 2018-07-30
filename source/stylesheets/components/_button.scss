@@ -1,0 +1,18 @@
+.btn-awesome {
+  color: white;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  border: black;
+  background: $wagon-red;
+  transition: background 0.5s ease;
+
+}
+.btn-awesome:hover {
+  opacity: 1;
+  background: transparent;
+  border: 1px solid $wagon-red;
+  text-decoration: none;
+  color: $wagon-red;
+}
